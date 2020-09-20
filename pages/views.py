@@ -20,5 +20,4 @@ def index(request):
             ['sergey.nikitin@tendermarkt.ru'],
             fail_silently=False
         )
-
     return HttpResponse(template.render())
