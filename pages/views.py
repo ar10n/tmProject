@@ -10,7 +10,9 @@ def index(request):
     if request.method == 'POST':
         name = request.POST['name']
         email = request.POST['email']
-        subject = request.POST['subject']
+        subject = ""
+        if request.POST['subject']:
+            subject = request.POST['subject']
         message = request.POST['message']
         msg = '{} от {} ({})'.format(message, name, email)
         send_mail(

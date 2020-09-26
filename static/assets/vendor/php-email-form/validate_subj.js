@@ -6,7 +6,7 @@
 !(function($) {
   "use strict";
 
-  $('form.php-email-form').submit(function(e) {
+  $('form.php-subj-form').submit(function(e) {
     e.preventDefault();
 
     var f = $(this).find('.form-group'),
@@ -130,7 +130,6 @@
       data: data,
       timeout: 40000
     }).done( function(msg){
-      $('#ModalCenter').modal('toggle');
       if (msg == 'OK') {
         this_form.find('.loading').slideUp();
         this_form.find('.sent-message').slideDown();

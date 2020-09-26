@@ -1523,7 +1523,7 @@ section {
   background: #0a98c0;
 }
 
-#footer .php-email-form .validate {
+#footer .php-subj-form .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
@@ -1531,7 +1531,7 @@ section {
   font-size: 13px;
 }
 
-#footer .php-email-form .error-message {
+#footer .php-subj-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1540,11 +1540,11 @@ section {
   font-weight: 600;
 }
 
-#footer .php-email-form .error-message br + br {
+#footer .php-subj-form .error-message br + br {
   margin-top: 25px;
 }
 
-#footer .php-email-form .sent-message {
+#footer .php-subj-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1553,14 +1553,14 @@ section {
   font-weight: 600;
 }
 
-#footer .php-email-form .loading {
+#footer .php-subj-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-#footer .php-email-form .loading:before {
+#footer .php-subj-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1573,26 +1573,26 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-#footer .php-email-form input, #footer .php-email-form textarea {
+#footer .php-subj-form input, #footer .php-subj-form textarea {
   border-radius: 0;
   box-shadow: none;
   border: 1px solid #dce1ec;
   font-size: 14px;
 }
 
-#footer .php-email-form input::focus, #footer .php-email-form textarea::focus {
+#footer .php-subj-form input::focus, #footer .php-subj-form textarea::focus {
   background-color: #1bb1dc;
 }
 
-#footer .php-email-form input {
+#footer .php-subj-form input {
   padding: 20px 15px;
 }
 
-#footer .php-email-form textarea {
+#footer .php-subj-form textarea {
   padding: 12px 15px;
 }
 
-#footer .php-email-form button[type="submit"] {
+#footer .php-subj-form button[type="submit"] {
   background: #1bb1dc;
   border: 0;
   border-radius: 3px;
@@ -1601,7 +1601,7 @@ section {
   transition: 0.3s;
 }
 
-#footer .php-email-form button[type="submit"]:hover {
+#footer .php-subj-form button[type="submit"]:hover {
   background: #0a98c0;
   cursor: pointer;
 }
