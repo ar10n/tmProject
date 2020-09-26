@@ -186,7 +186,8 @@
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
     dots: true,
-    loop: true,
+    loop: false,
+    rewind: true,
     items: 1
   });
 
